@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <!-- <link rel="stylesheet" type="text/css" href="css/index.css" />	-->
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="js/statusbarnotification.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/agenda.js"></script>
+        <title>Agenda</title>
+    </head>
+    <body onload="init()">
+	
+	<div data-role="page" id="pageone">
+		<div data-role="header" data-position="fixed" align="center" data-theme="b">
+			<table style="color:white">
+				<tr><td align="center"><img src="img/logoPU3.png" height="42">&nbsp;&nbsp;&nbsp;</td><td id="unitkerja" align="center"></td></tr>
+			</table>
+		</div>
+		
+		<div data-role="main" class="ui-content" data-theme="a">
+			<table>
+				<tr><td><a href="#" id="linkhomeup" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext" data-ajax="false"></a></td>
+					<td style="width:99%"><button class="ui-btn"><b>AGENDA KEGIATAN</b></button></td>
+					<td><a href="#" id="linkhistoryup" class="ui-btn ui-icon-calendar ui-btn-icon-left" data-ajax="false">History</a></td></tr>
+			</table>
+			
+			<div id="agenda">
+				<ul id="listagenda" data-role="listview" data-inset="true">
+				</ul>
+			</div>
+
+			<table style="width:100%">
+				<tr><td><a href="#" id="prev" class="ui-btn ui-icon-arrow-l ui-btn-icon-left" data-ajax="false">Prev</a></td>
+					<td><button id="hal" class="ui-btn">1</button></td>
+					<td><a href="#" id="next" class="ui-btn ui-icon-arrow-r ui-btn-icon-right" data-ajax="false">Next</a></td></tr>
+			</table>
+			<table style="width:100%">
+				<tr><td style="width:50%"><a href="#" id="linkhomedown" class="ui-btn ui-icon-home ui-btn-icon-left" data-ajax="false">Home</a></td>
+					<td><a href="#" id="linkhistorydown" class="ui-btn ui-icon-calendar ui-btn-icon-left" data-ajax="false">History</a></td></tr>
+			</table>
+		</div>
+		
+		<div data-role="footer" data-position="fixed" align="center" data-theme="b">
+			<table style="color:white">
+				<tr><td><font size="6">tnde</font></td><td>tata naskah dinas elektronik &nbsp;&nbsp;&nbsp;<br>Kementerian PUPR</td><td><img src="img/logoPU3.png" height="42"></td></tr>
+			</table>
+		</div>
+	</div> 
+	
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
