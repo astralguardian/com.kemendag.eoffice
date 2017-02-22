@@ -3,9 +3,9 @@
     xmlns:gap="http://phonegap.com/ns/1.0"
     id="com.kemendag.eoffice"
     versionCode="10"
-    version="1.0.0" >
+    version="1.2.2-4" >
 <!--<widget id="com.kemendag.eoffice" version="1.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">-->
-    <name>eoffice-kemendag</name>
+    <name>TNDE Kemendag</name>
     <description>
         Aplikasi Tata Naskah Dinas Elektronik Kementerian Perdagangan
     </description>
