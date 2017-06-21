@@ -1,6 +1,6 @@
 //api global var
-//var apiPU = "http://eoffice.kemendag.go.id/mobile_services/";
-var apiPU = "http://intranet.kemendag.go.id/modules/api/eoffice_api/"; 
+var apiPU = "http://eoffice.kemendag.go.id/mobile_services/";
+//var apiPU = "http://intranet.kemendag.go.id/modules/api/eoffice_api/"; 
 var fileStorage = "http://eoffice.kemendag.go.id/_FileStorage/";
 var fileDownload = "http://eoffice.kemendag.go.id/_FileDownload/";
 //var apiPU = "http://103.12.84.244/mobile_services/";
