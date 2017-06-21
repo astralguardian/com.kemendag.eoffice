@@ -3,7 +3,7 @@
     xmlns:gap="http://phonegap.com/ns/1.0"
     id="com.kemendag.eoffice"
     versionCode="10"
-    version="1.2.2-4" >
+    version="1.2.2-5" >
 <!--<widget id="com.kemendag.eoffice" version="1.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">-->
     <name>TNDE Kemendag</name>
     <description>
@@ -32,8 +32,8 @@
     <!-- Plugins -->
     <!-- Core plugins -->
     <plugin name="cordova-plugin-battery-status"      source="npm" spec="~1.1.1" />
-    <!--<plugin name="cordova-plugin-camera"              source="npm" spec="~2.1.1" />
-    <plugin name="cordova-plugin-media-capture"       source="npm" spec="~1.2.0" />-->
+    <plugin name="cordova-plugin-camera"              source="npm" spec="~2.1.1" />
+    <plugin name="cordova-plugin-media-capture"       source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-console"             source="npm" spec="~1.0.2" />
     <!--<plugin name="cordova-plugin-contacts"            source="npm" spec="~2.0.1" />-->
     <plugin name="cordova-plugin-device"              source="npm" spec="~1.1.1" />
@@ -50,7 +50,7 @@
     <plugin name="cordova-plugin-splashscreen"        source="npm" spec="~3.2.1" />
     <plugin name="cordova-plugin-statusbar"           source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.0" />
-    <!--<plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />-->
+    <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.2.1" />
 
     <icon src="icon.png" />
 
